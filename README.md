@@ -1,8 +1,9 @@
 ![Header]((https://i.pinimg.com/originals/d0/b8/ce/d0b8ce26e653dbece62ab32a53110b4c.gif))
 <h1 align="center">Hi 👋, I'm Abdelraouf Abdelgader</h1>
+<img align="left" alt="Coding" width=400 src="https://i.pinimg.com/originals/d0/b8/ce/d0b8ce26e653dbece62ab32a53110b4c.gif">
 - 📫 How to reach me **raoumaki0@gmail.com**
 
-  <img align="left" alt="Coding" width=400 src="https://i.pinimg.com/originals/d0/b8/ce/d0b8ce26e653dbece62ab32a53110b4c.gif">
+  
 <br><br><br>
 <div style="border: 2px solid #000; padding: 10px;">
 <h3 align="left">Languages and Tools:</h3>
