@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 186" width="1200" height="186" role="img" aria-label="Languages and Tools Matrix">
+  <rect x="2" y="2" width="1196" height="182" rx="14" fill="#08090C" stroke="#D4D8DF" stroke-opacity="0.14" stroke-width="1.2" />
+  <text x="26" y="34" fill="#F3F4F6" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="16" font-weight="600">Languages &amp; Architecture</text>
+  <text x="1174" y="34" text-anchor="end" fill="#8A93A2" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">Production Stack</text>
+  
+      <g transform="translate(24, 54)">
+        <rect x="0" y="0" width="368" height="108" rx="10" fill="#0E1015" stroke="#D4D8DF" stroke-opacity="0.14" stroke-width="1" />
+        <rect x="0" y="0" width="368" height="3" rx="1.5" fill="#FF6B2C" fill-opacity="0.85" />
+        <text x="20" y="36" fill="#FF6B2C" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="14.5" font-weight="600">Frontend &amp; AI</text>
+        <text x="20" y="72" fill="#D4D8DF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">Next.js  ·  React  ·  TypeScript  ·  Tailwind CSS</text>
+      </g>
+
+      <g transform="translate(416, 54)">
+        <rect x="0" y="0" width="368" height="108" rx="10" fill="#0E1015" stroke="#D4D8DF" stroke-opacity="0.14" stroke-width="1" />
+        <rect x="0" y="0" width="368" height="3" rx="1.5" fill="#8A93A2" fill-opacity="0.35" />
+        <text x="20" y="36" fill="#E5E7EB" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="14.5" font-weight="600">Core Languages</text>
+        <text x="20" y="72" fill="#D4D8DF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">Python  ·  JavaScript  ·  Java  ·  C#  ·  C++</text>
+      </g>
+
+      <g transform="translate(808, 54)">
+        <rect x="0" y="0" width="368" height="108" rx="10" fill="#0E1015" stroke="#D4D8DF" stroke-opacity="0.14" stroke-width="1" />
+        <rect x="0" y="0" width="368" height="3" rx="1.5" fill="#8A93A2" fill-opacity="0.35" />
+        <text x="20" y="36" fill="#E5E7EB" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="14.5" font-weight="600">Backend, Web3 &amp; Infra</text>
+        <text x="20" y="72" fill="#D4D8DF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">Convex  ·  Supabase  ·  Docker  ·  Smart Contracts</text>
+      </g>
+</svg>

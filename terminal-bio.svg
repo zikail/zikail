@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" width="1200" height="250" role="img" aria-label="Terminal Bio">
+  <defs>
+    <linearGradient id="termBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B0C10" />
+      <stop offset="100%" stop-color="#08090C" />
+    </linearGradient>
+  </defs>
+  <style>
+    .t-line-1 { opacity: 0; animation: revealLine 0.45s ease forwards 0.15s; }
+    .t-line-2 { opacity: 0; animation: revealLine 0.45s ease forwards 0.45s; }
+    .t-line-3 { opacity: 0; animation: revealLine 0.45s ease forwards 0.75s; }
+    .t-line-4 { opacity: 0; animation: revealLine 0.45s ease forwards 1.05s; }
+    .t-line-5 { opacity: 0; animation: revealLine 0.45s ease forwards 1.35s; }
+    .term-cursor { animation: termBlink 1s steps(2, start) infinite; }
+    @keyframes revealLine {
+      from { opacity: 0; transform: translateY(4px); }
+      to { opacity: 1; transform: translateY(0px); }
+    }
+    @keyframes termBlink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+  </style>
+
+  <rect x="2" y="2" width="1196" height="246" rx="14" fill="url(#termBg)" stroke="#D4D8DF" stroke-opacity="0.16" stroke-width="1.2" />
+
+  <!-- Terminal Top Chrome -->
+  <line x1="2" y1="42" x2="1198" y2="42" stroke="#D4D8DF" stroke-opacity="0.1" stroke-width="1" />
+  <circle cx="26" cy="22" r="5" fill="#FF6B2C" />
+  <circle cx="44" cy="22" r="5" fill="#9CA3AF" fill-opacity="0.55" />
+  <circle cx="62" cy="22" r="5" fill="#9CA3AF" fill-opacity="0.28" />
+  <text x="86" y="26" fill="#9CA3AF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5">abdelraouf-dev — zsh — profile.config.ts</text>
+  <text x="1172" y="26" text-anchor="end" fill="#FF6B2C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">Montreal, Canada</text>
+
+  <!-- Terminal Lines -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">
+    <g class="t-line-1">
+      <text x="28" y="76" fill="#FF6B2C" font-weight="600">$</text>
+      <text x="46" y="76" fill="#E5E7EB">cat profile.json</text>
+    </g>
+
+    <g class="t-line-2">
+      <text x="46" y="108" fill="#8A93A2">role:</text>
+      <text x="164" y="108" fill="#F3F4F6">"Computer Science Student · Full-Stack &amp; Web3 Builder"</text>
+    </g>
+
+    <g class="t-line-3">
+      <text x="46" y="138" fill="#8A93A2">building:</text>
+      <text x="164" y="138" fill="#E5E7EB">"A real-time productivity workspace &amp; Web3 execution tools"</text>
+    </g>
+
+    <g class="t-line-4">
+      <text x="46" y="168" fill="#8A93A2">exploring:</text>
+      <text x="164" y="168" fill="#D4D8DF">"Smart contract automation, AI agent workflows &amp; edge runtimes"</text>
+    </g>
+
+    <g class="t-line-5">
+      <text x="46" y="198" fill="#8A93A2">contact:</text>
+      <text x="164" y="198" fill="#FF6B2C">"mikhailxfactor@gmail.com"</text>
+    </g>
+
+    <text x="28" y="228" fill="#FF6B2C" font-weight="600">$</text>
+    <rect x="46" y="215" width="9" height="16" rx="1.5" fill="#FF6B2C" class="term-cursor" />
+  </g>
+</svg>
